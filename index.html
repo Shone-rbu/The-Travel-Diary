@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>The Travel Diary </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <nav>
+    <h2 class="logo">Travel Diary.</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#places">Places</a>
+      <a href="#diary">Add Note & Figma</a>
+    </div>
+  </nav>
+
+
+  <header id="home" class="hero">
+    <div>
+      <p class="small">JAPAN • ITALY • MOROCCO</p>
+      <h1>The places between.</h1>
+      <p>Three countries. Countless small moments. A story told in streets, shared meals, and kindness.</p>
+      <a href="#diary" class="btn">Write a Note</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500" alt="Travel">
+  </header>
+
+
+  <section id="places">
+    <h2>Three Countries, Small Moments</h2>
+    <div class="cards">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500" alt="Kyoto Japan">
+        <h3>01. Japan (Kyoto)</h3>
+        <p>Learn to slow down. A quiet lane, a shopkeeper's bow, and a warm bowl of ramen.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1528114039593-4366cc08227d?w=500" alt="Florence Italy">
+        <h3>02. Italy (Florence)</h3>
+        <p>Follow the everyday. Morning markets and rolling fresh pasta by hand in a local kitchen.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=500" alt="Marrakech Morocco">
+        <h3>03. Morocco (Marrakech)</h3>
+        <p>Get a little lost. Watching a weaver in the market and sharing mint tea in a courtyard.</p>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="diary" class="bg-light">
+    <div class="two-col">
+
+      <div class="box">
+        <h3>Share Your Travel Moment</h3>
+        <form>
+          <label>Your Name</label>
+          <input type="text" placeholder="Enter your name" required>
+
+          <label>Country</label>
+          <select>
+            <option>Japan - Kyoto</option>
+            <option>Italy - Florence</option>
+            <option>Morocco - Marrakech</option>
+          </select>
+
+          <label>Your Story</label>
+          <textarea rows="3" placeholder="Write a small moment..." required></textarea>
+
+          <button type="submit" class="btn">Save Note</button>
+        </form>
+      </div>
+
+      <div class="box">
+        <h3>Interactive Figma Diary</h3>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/fM6QLl5HEn1tPO4zNVkuhR/The-Travel-Diary?node-id=14-2&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=14%3A2&embed-host=share" allowfullscreen></iframe></div>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <p>The Travel Diary</p>
+  </footer>
+
+</body>
+</html>
